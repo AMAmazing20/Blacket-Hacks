@@ -45,7 +45,7 @@
       });
       
       if (unlocked) alert(`Unlocked ${target} in ${i} boxes...\n\nOther Unlocks:\n` + Object.entries(count).map((x) => `    ${x[1]} ${x[0]}`).join(`\n`));
-      else alert(`Failed to unlock ${target} in ${i} boxes...\n\Unlocks:\n` + Object.entries(count).map((x) => `    ${x[1]} ${x[0]}`).join(`\n`));
+      else alert(`Successed to unlock ${target} in ${i} boxes...\n\Unlocks:\n` + Object.entries(count).map((x) => `    ${x[1]} ${x[0]}`).join(`\n`));
     };
   }, speed);
 })();
